@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #1B1B1B;
+    font-family: 'Montserrat',sans-serif;
+}
+.header_wrapper{
+    display: flex;
+    padding: 20px 40px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo{
+    background-image: url(images/logo.webp);
+    width: 168px;
+    height: 60px;
+    background-size: cover;
+}
+.main-header-bar {
+    z-index: 4;
+    position: relative;
+    line-height: 4;
+}
+.mid_heade{
+    width: 100%;
+    display: block;
+}
+.mid_heade ul{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+.mid_heade ul li {
+    list-style: none;
+    margin:0 10px;
+}
+.mid_heade ul li a{
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-flex;
+}
+.header_contact{
+    color: #fff;
+    background-color: #ff7271;
+    width: 180px;
+    height: 48px;
+    padding:10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
