@@ -8,6 +8,7 @@
 body{
     background-color: #1B1B1B;
     font-family: 'Montserrat',sans-serif;
+    color: #fff;
 }
 .header_wrapper{
     display: flex;
@@ -43,13 +44,13 @@ body{
 }
 .mid_heade ul li a{
     color: #fff;
-    padding: 15px;
+    padding: 14px;
     text-decoration: none;
     display: inline-flex;
 }
 .header_contact{
     color: #fff;
-    background-color: #ff7271;
+    background-color:#ff7271;
     width: 180px;
     height: 48px;
     padding:10px 20px;
@@ -57,4 +58,38 @@ body{
     justify-content: center;
     align-items: center;
     font-weight: 700;
+}
+.container{
+    width: 100%;
+    padding:0 40px;
+}
+.banner_section{
+    width: calc(100% - -40px);
+    margin-left:-40px ;
+    margin-right: 40px;
+}
+.banner_img{
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 640px;
+    display:block ;
+    background-size: 100%;
+    position: relative;
+    background-color: #1B1B1B;
+    opacity: 0.7;
+}
+.banner_text{
+    position: absolute;
+    top: 50%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+    width: 69%;
+}
+.banner_text_head{
+    font-size: 100px;
+    font-weight: 700;
+}
+.banner_sub_text{
+    font-size: 22px;
 }
