@@ -9,7 +9,7 @@
 
 .elementor-1520 .elementor-element.elementor-element-5f6302c:not(.elementor-motion-effects-element-type-background), .elementor-1520 .elementor-element.elementor-element-5f6302c > .elementor-motion-effects-container > .elementor-motion-effects-layer {
     background-color: #1B1B1B;
-    background-image: url("https://risetheweb.com/wp-content/uploads/2021/11/rise-the-web-digital-marketing.jpg");
+    background-image: url("../images/banner.jpg") !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
